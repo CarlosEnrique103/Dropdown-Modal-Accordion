@@ -8,6 +8,7 @@ function Accordion(element){
 
 Accordion.prototype.open = function(){
     this.element.nextElementSibling.classList.toggle('is-active');
+        this.element.classList.toggle('is-active')
 } 
 
 let accordion1= new Accordion('.open_1');

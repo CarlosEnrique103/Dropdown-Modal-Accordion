@@ -1,0 +1,42 @@
+.dropdown{
+    position: relative;
+    color: white;
+    background-color: black;
+    border: none;
+    width: 200px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.dropdown ul {
+    display: none;
+    font-size: 15px;
+    position: absolute;
+    list-style: none;
+    background: black;
+    width: 100%;
+    top: 130%;
+    margin: 0;
+    left: 0;
+    text-align: left;
+    min-width: 200px;
+    padding: 0; 
+}
+.dropdown li{
+    color: white;
+    padding: 10px;
+    border-top: 1px solid white;
+
+}
+.dropdown li:hover {
+    background-color: white ;
+    color: black;
+}
+
+.dropdown li:last-child {
+    margin-bottom: 0;
+}
+
+.dropdown.is-active ul{
+    display: block;
+}

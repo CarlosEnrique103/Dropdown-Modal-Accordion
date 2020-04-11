@@ -16,7 +16,7 @@ body {
 }
 
 .accordion {
-    color: white;  
+    color: gray;  
     margin: 10px;
     padding: 7px;
 }
@@ -27,6 +27,7 @@ body {
 
 .accordion .title:hover{
     font-weight:bold;
+    color:white;
 }
 
 .accordion i{
@@ -46,4 +47,5 @@ body {
 
 .is-active{
     display: block;
+    color: white;
 }

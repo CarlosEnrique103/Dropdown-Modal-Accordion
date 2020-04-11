@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modal</title>
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <button class="openModal">Abrir Modal</button>
+    <div class="modal js_modal1">
+        <div class="modal_inner">
+            <div class="modal_header">
+                <h2>Select a Photo</h2>
+                <i class="js_close fa fa-close"></i>
+            </div>
+            <div class="modal_body">
+                <div>
+                  <img src="https://semantic-ui.com/images/avatar2/large/rachel.png" alt="profile.png">
+                </div>
+                <div>
+                  <h2>Default Profile Image</h2>
+                  <p>We've found the following gravatar image associated with your e-mail address.
+
+                    Is it okay to use this photo?</p>
+                </div>
+            </div>
+            <div class="modal_footer">
+                <button class="js_cancel">Cancelar</button>
+                <button class="js_accept">Aceptar</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./scripts/main.js"></script>
+  </body>
+</html>
